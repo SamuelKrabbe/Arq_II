@@ -7,14 +7,14 @@
             "cache_L3": []
         },
         {
-            "cache_L1": [128, 2, 2, "FIFO (First In, First Out)", []],
-            "cache_L2": [],
+            "cache_L1": [128, 2, 2, "LRU (Least Recently Used)", []],
+            "cache_L2": [256, 4, 2, "LRU (Least Recently Used)", []],
             "cache_L3": []
         },
         {
-            "cache_L1": [128, 2, 2, "Random", []],
-            "cache_L2": [],
-            "cache_L3": []
+            "cache_L1": [128, 2, 2, "LRU (Least Recently Used)", []],
+            "cache_L2": [256, 4, 2, "LRU (Least Recently Used)", []],
+            "cache_L3": [512, 8, 2, "LRU (Least Recently Used)", []]
         }
     ]
   }
