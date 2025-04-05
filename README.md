@@ -60,7 +60,7 @@ O arquivo `config.json` é onde você define os projetos de cache que serão tes
       "cache_L2": [],
       "cache_L3": []
       },
-      ...
+      // Adicione mais projetos se quiser...
   ]
 }
 ```
@@ -71,7 +71,7 @@ O arquivo `config.json` é onde você define os projetos de cache que serão tes
   - `cache_L1`, `cache_L2`, `cache_L3`: Cada um representa um nível de cache.
 
 ### Cada nível de cache recebe:
-```json
+```text
 [sets, blocks_por_conjunto, palavras_por_bloco, politica_substituicao, [hit_time, miss_penalty]]
 ```
 - Se quiser usar o valor padrão do simulador para `hit_time` e `miss_penalty`, basta usar um array vazio: `[]`
