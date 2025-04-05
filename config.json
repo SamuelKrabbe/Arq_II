@@ -1,0 +1,21 @@
+{
+    "repetitions": 3,
+    "cache_projects": [
+        {
+            "cache_L1": [128, 2, 2, "LRU (Least Recently Used)", []],
+            "cache_L2": [],
+            "cache_L3": []
+        },
+        {
+            "cache_L1": [128, 2, 2, "FIFO (First In, First Out)", []],
+            "cache_L2": [],
+            "cache_L3": []
+        },
+        {
+            "cache_L1": [128, 2, 2, "Random", []],
+            "cache_L2": [],
+            "cache_L3": []
+        }
+    ]
+  }
+  
