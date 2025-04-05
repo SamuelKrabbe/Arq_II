@@ -50,16 +50,21 @@ O arquivo `config.json` é onde você define os projetos de cache que serão tes
 {
   "repetitions": 3,
   "cache_projects": [
-      {
-      "cache_L1": [64, 4, 8, "LRU", [2, 12]],
+    {
+      "cache_L1": [128, 2, 2, "LRU (Least Recently Used)", []],
       "cache_L2": [],
       "cache_L3": []
-      },
-      {
-      "cache_L1": [128, 2, 4, "Random", []],
-      "cache_L2": [],
+    },
+    {
+      "cache_L1": [128, 2, 2, "LRU (Least Recently Used)", []],
+      "cache_L2": [256, 4, 2, "LRU (Least Recently Used)", []],
       "cache_L3": []
-      },
+    },
+    {
+      "cache_L1": [128, 2, 2, "LRU (Least Recently Used)", []],
+      "cache_L2": [256, 4, 2, "LRU (Least Recently Used)", []],
+      "cache_L3": [512, 8, 2, "LRU (Least Recently Used)", []]
+    }
   ]
 }
 ```
