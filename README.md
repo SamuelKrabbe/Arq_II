@@ -60,7 +60,6 @@ O arquivo `config.json` é onde você define os projetos de cache que serão tes
       "cache_L2": [],
       "cache_L3": []
       },
-      // Adicione mais projetos se quiser...
   ]
 }
 ```
@@ -69,6 +68,8 @@ O arquivo `config.json` é onde você define os projetos de cache que serão tes
 - `repetitions`: Quantas vezes repetir cada teste (a média é calculada).
 - `cache_projects`: Lista de configurações para cada projeto de cache.
   - `cache_L1`, `cache_L2`, `cache_L3`: Cada um representa um nível de cache.
+
+💡 Você pode adicionar quantos projetos quiser dentro da lista "cache_projects", sempre seguindo a mesma estrutura mostrada acima.
 
 ### Cada nível de cache recebe:
 ```text
