@@ -1,6 +1,6 @@
 # Simulador de Cache Automatizado
 
-Este projeto automatiza testes em um simulador de cache **([text]https://cachelab.hugo.dev.br/)** via Selenium, executando diferentes configurações de cache e gerando relatórios com os resultados de **Hit rate (%)** e **Average access time (ns)**, além de gráficos comparativos salvos em imagens.
+Este projeto automatiza testes em um simulador de cache ([text]**https://cachelab.hugo.dev.br/** */) via Selenium, executando diferentes configurações de cache e gerando relatórios com os resultados de **Hit rate (%)** e **Average access time (ns)**, além de gráficos comparativos salvos em imagens.
 
 ---
 
